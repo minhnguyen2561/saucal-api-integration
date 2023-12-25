@@ -61,19 +61,8 @@ class SauCal_API_Integration {
 	 */
 	private function output_api_form_setting() {
 		ob_start();
-		?>
-        <form action="" method="post">
-			<?php
-			wp_nonce_field( 'send-post-request', 'sc-api-request' ); ?>
-            <label>
-				<?php
-				_e( 'Entering elements to fetch, separating by comma', 'sc-api-integration' ); ?>
-                <input type="text" name="sc_api_data" required/>
-                <input type="submit" value="<?php
-				_e( 'Retrieve data', 'sc-api-integration' ); ?>">
-            </label>
-        </form>
-		<?php
+		require_once 'templates/myaccount/saucal-form.php';
+
 		return ob_get_clean();
 	}
 
