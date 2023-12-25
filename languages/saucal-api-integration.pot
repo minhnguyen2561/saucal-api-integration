@@ -1,0 +1,56 @@
+# Copyright (C) 2023 
+# This file is distributed under the same license as the SauCal API Integration plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SauCal API Integration 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/saucal-api-integration\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-25T18:35:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: sc-api-integration\n"
+
+#. Plugin Name of the plugin
+msgid "SauCal API Integration"
+msgstr ""
+
+#. Description of the plugin
+msgid "Simple plugin to demonstrate the external API integration"
+msgstr ""
+
+#: SauCal_API_Integration.php:87
+msgid "Time out"
+msgstr ""
+
+#: SauCal_API_Integration.php:88
+msgid "Loading..."
+msgstr ""
+
+#: SauCal_API_Integration.php:100
+msgid "Failed validation"
+msgstr ""
+
+#: SauCal_API_Integration.php:127
+#: SauCal_API_Integration.php:132
+msgid "Failed request"
+msgstr ""
+
+#: templates/myaccount/saucal-fetch-result.php:3
+msgid "Result"
+msgstr ""
+
+#: templates/myaccount/saucal-form.php:8
+msgid "Elements to fetch"
+msgstr ""
+
+#: templates/myaccount/saucal-form.php:14
+msgid "Separating by comma"
+msgstr ""
+
+#: templates/myaccount/saucal-form.php:20
+msgid "Submit"
+msgstr ""

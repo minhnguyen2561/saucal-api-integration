@@ -1,8 +1,10 @@
 <?php
 /**
  * Plugin Name: SauCal API Integration
+ * Description: Simple plugin to demonstrate the external API integration
  * Version: 1.0.0
  * Text Domain: sc-api-integration
+ * Domain Path: /languages
  */
 
 // Exit if accessed directly.
