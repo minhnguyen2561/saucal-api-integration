@@ -10,10 +10,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-//Include the main class file
-require __DIR__ . '/SauCal_API_Integration.php';
+define( 'SAUCAL_BASE_API_URL', 'https://httpbin.org/post' );
+define( 'SAUCAL_DIR', __DIR__ );
+define( 'SAUCAL_URL', plugin_dir_url( __FILE__ ) );
 
-define( 'SC_BASE_API_URL', 'https://httpbin.org/post' );
+//Include the main class file
+require SAUCAL_DIR . '/SauCal_API_Integration.php';
 
 /**
  * Returns the main instance of SauCal API.

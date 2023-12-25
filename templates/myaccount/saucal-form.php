@@ -16,7 +16,6 @@ do_action( 'saucal_api_before_user_form_tag' ); ?>
         </span>
     </p>
     <p>
-		<?php wp_nonce_field( 'send-post-request', 'sc-api-request' ); ?>
         <button type="submit" class="woocommerce-Button button">
 			<?php esc_html_e( 'Submit', 'sc-api-integration' ); ?>
         </button>
@@ -25,3 +24,5 @@ do_action( 'saucal_api_before_user_form_tag' ); ?>
 	<?php do_action( 'saucal_api_user_form_end' ); ?>
 </form>
 <?php do_action( 'saucal_api_after_user_form_tag' ); ?>
+<p class="saucal-api-message"></p>
+<div class="saucal-api-result-container" style="display: none;"></div>
